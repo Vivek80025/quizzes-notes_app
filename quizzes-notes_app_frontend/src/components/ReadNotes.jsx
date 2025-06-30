@@ -1,12 +1,13 @@
 
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ReadNotes = () => {
 
   const fetchData = useSelector((store) => store.fetchData);
   const [pdfData, setPdfData] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setPdfData(fetchData.pdfData);
@@ -30,7 +31,8 @@ const ReadNotes = () => {
           </div>
           <div className="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
             <a href={pdfData.link} className="btn btn-lg btn-primary" target="_blank" rel="noopener noreferrer">Open PDF</a>
-            <Link to="/" className="btn btn-lg btn-secondary" data-bs-dismiss="modal">Close</Link>
+            {/* <Link to="/" className="btn btn-lg btn-secondary" data-bs-dismiss="modal">Close</Link> */}
+            <button className="btn btn-lg btn-secondary" onClick={() => navigate("/")}>Close</button>
           </div>
         </div>
       </div>
