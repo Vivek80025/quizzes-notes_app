@@ -1,0 +1,22 @@
+.optionsContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #263238; */
+  background-color: #5A2D8C;
+}
+.question {
+  width: 25%;
+  margin-bottom: 10px;
+  color: white;
+}
+.noOfQDev {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 15px;
+}
+.quesTxt{
+  font-size: larger;
+}
