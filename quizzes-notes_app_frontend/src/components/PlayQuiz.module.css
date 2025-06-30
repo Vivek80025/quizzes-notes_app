@@ -1,31 +1,3 @@
-/* .optionsContainer {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #5A2D8C;
-}
-.options {
-  width: 25%;
-  margin-bottom: 20px;
-}
-.question {
-  width: 25%;
-  margin-bottom: 10px;
-  color: white;
-}
-.noOfQDev {
-  width: 100%;
-  text-align: right;
-  margin-bottom: 15px;
-}
-.quesTxt{
-  font-size: larger;
-} */
-
-
-
 
 .optionsContainer {
   height: 100vh;

@@ -1,27 +1,3 @@
-/* .signupForm {
-  width: 25%;
-}
-
-.signupFormWrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.resendOtp {
-color: rgb(90, 64, 239);
-font-weight: 500
-
-}
-.resendOtp:hover{
-  cursor: pointer;
-  color: darkblue;
-} */
-
-
-
-
 
 .signupForm {
   width: 25%;
